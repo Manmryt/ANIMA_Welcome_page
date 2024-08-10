@@ -1,0 +1,107 @@
+body {
+  background-color: blck;
+  margin: 0%;
+  background-image: url("IMG/Wel-backgroung.webp");
+  background-position: center bottom;
+  background-size: cover;
+}
+.wel-body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+.wel-title {
+  z-index: 2;
+  font-size: 22vh;
+  align-self: center;
+  color: brown;
+  font-family: "Cormorant Garamond", serif;
+  font-weight: 600;
+  font-style: normal;
+}
+.wel-title:hover {
+  cursor: default;
+}
+
+.wel-background {
+  width: 100vw;
+  position: fixed;
+  z-index: -1;
+}
+.material-symbols-outlined {
+  top: 0%;
+  left: 0%;
+  position: fixed;
+  z-index: 0;
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz 48";
+  color: black;
+}
+.wel-join {
+  color: brown;
+  text-decoration: none;
+  font-size: 3vh;
+}
+.wel-quote {
+  align-self: center;
+  position: fixed;
+  bottom: 15vh;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+.wel-quote:hover {
+  cursor: default;
+}
+.wel-img {
+  height: 2rem;
+}
+.wel-logo {
+  display: flex;
+  justify-content: space-between;
+  height: 2rem;
+  width: 15rem;
+  position: fixed;
+  bottom: 2vh;
+  align-self: center;
+}
+.wel-aniLogo {
+  align-self: flex-end;
+  z-index: 0;
+  position: fixed;
+  right: 0%;
+}
+.ani-logo {
+  height: 3rem;
+  border-radius: 50%;
+}
+@media (max-width: 600px) {
+  body {
+    margin: 0%;
+    background-image: url("IMG/mq-Wel-background-2.jpg");
+    background-position: center bottom;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+  }
+  .wel-title {
+    z-index: 2;
+    font-size: 10vh;
+    align-self: center;
+    color: brown;
+    font-family: "Cormorant Garamond", serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  .wel-aniLogo {
+    align-self: flex-end;
+    z-index: 0;
+    position: fixed;
+    right: 0%;
+  }
+  .ani-logo {
+    height: 7vh;
+    border-radius: 50%;
+  }
+}
