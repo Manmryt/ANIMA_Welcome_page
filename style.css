@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+  margin-top: 3rem;
+}
+
+
+.back-jap-0 {
+  z-index: -1;
+  font-family: "BIZ UDPMincho", serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 10rem;
+  color: aliceblue;
+  writing-mode: vertical-rl;
+  height: 150vh;
+  margin-left: auto;
+}
+.back-jap-0:hover{
+    cursor: default;
+}
+
+.cont-sec{
+    background-color: aliceblue;
+    border-radius: 30px;
+}
